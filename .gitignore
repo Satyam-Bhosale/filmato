@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing
+/coverage
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+
+# Build outputs
+.next
+.next/
+/.next/
+/out/
+/build
+dist/
+dist-ssr/
+web-build/
+
+# Expo
+.expo/
+expo-env.d.ts
+app-example
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Metro
+.metro-health-check*
+
+# Logs
+logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+*.pem
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+expo-env.d.ts
+
+# Vercel
+.vercel
+
+# Editor directories and files
+.vscode
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#turbo
+.turbo
+.turbo/
+.turbo/*
+
+# Local files
+*.local

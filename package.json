@@ -1,0 +1,22 @@
+{
+  "name": "filmato",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:backend": "turbo dev -F @filmato/backend",
+    "dev:admin": "turbo dev -F @filmato/admin",
+    "dev:client": "turbo dev -F @filmato/client",
+    "dev:mobile": "pnpm --filter @filmato/mobile start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsx": "catalog:",
+    "turbo": "^2.8.7",
+    "typescript": "catalog:"
+  }
+}
