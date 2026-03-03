@@ -1,0 +1,26 @@
+{
+  "name": "@filmato/utils",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build":"tsc -b",
+    "dev": "tsc -b --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
+  },
+  "exports": {
+    ".": {
+      "import" : "./dist/src/index.js",
+      "types": "./dist/src/index.d.ts",
+      "bundler": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  }
+}

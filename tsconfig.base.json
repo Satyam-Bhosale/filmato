@@ -14,11 +14,13 @@
         "esModuleInterop": true,
         "sourceMap": true,
         "declaration": true,
+        "declarationMap": true,
         "resolveJsonModule": true,
         "noUnusedLocals": true,
-        "noUncheckedIndexedAccess": true,
+        "noUnusedParameters": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
-        "isolatedModules": true,
+        "noUncheckedIndexedAccess": true,
+        "isolatedModules": true
     }
 }

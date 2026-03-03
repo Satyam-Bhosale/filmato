@@ -5,6 +5,8 @@
         {"path": "./apps/backend"},
         {"path": "./apps/web/admin"},
         {"path": "./apps/web/client"},
-        {"path": "./apps/mobile"}
+        {"path": "./apps/mobile"},
+        {"path": "./packages/ui"},
+        {"path": "./packages/utils"}
     ]
 }
