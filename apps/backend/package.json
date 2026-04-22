@@ -1,0 +1,24 @@
+{
+  "name": "@filmato/backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/src/server.js",
+  "scripts": {
+    "dev": "tsx watch --watch src/server.ts",
+    "build": "tsc && tsc-alias",
+    "start": "node dist/src/server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@filmato/utils": "workspace:*",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "catalog:",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.21.0",
+    "typescript": "catalog:"
+  }
+}

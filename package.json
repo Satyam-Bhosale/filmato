@@ -1,0 +1,23 @@
+{
+  "name": "filmato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "turbo run dev --filter=@filmato/backend",
+    "dev:admin": "turbo run dev --filter=@filmato/admin",
+    "dev:mobile": "turbo run start --filter=@filmato/mobile",
+    "dev:client": "turbo run dev --filter=@filmato/client",
+
+    "build:backend": "turbo run build --filter=@filmato/backend",
+    "build:admin": "turbo run build --filter=@filmato/admin",
+    "build:mobile": "turbo run build --filter=@filmato/mobile",
+    "build:client": "turbo run build --filter=@filmato/client",
+    "build:utils": "turbo run build --filter=@filmato/utils"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "turbo": "^2.9.6"
+  }
+}
